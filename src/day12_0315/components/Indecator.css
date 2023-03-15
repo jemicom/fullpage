@@ -1,0 +1,23 @@
+.indecator{
+    list-style: none;
+    position: absolute;
+    right: 50px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.indecator li.active a{
+    background-color: red;
+}
+.indecator a{
+    display: block; 
+    width:20px; 
+    height: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    font-size:0; 
+    margin: 5px;
+}

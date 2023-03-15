@@ -1,0 +1,21 @@
+.app__navbar{
+    position: fixed;
+    top:0; 
+    width:100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.app__navbar-logo img{ width: 40px;}
+
+.app__navbar-links{ display: flex;
+
+}
+.app__navbar-links a{
+    display: block;
+    padding:10px; 
+}
+
+.app__navbar-links li.active a{
+    color:red
+}

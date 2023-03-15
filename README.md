@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+//ex7 React 스니핏
+rafc : export 를 화살표함수  앞에 붙이기 
+rafce : export 를 하단에 별도로 하기 
+rfc : export 를 화살표함수  앞에 붙이기 
+rfce : export 를 하단에 별도로 하기 
+rcc : 클래스형 컴포넌트 만들기
+
+// React에서 반드시 필요한 문법 : 변수 
+// UI를 바꾸기 위한 변수 
+const 변수명 = 값;
+let 변수명 = 값;
+1. props : 속성 => 상위클래스에서 하위클래스로 전달하고 싶은값 
+  <h1 class='logo'>
+2. state : 상태 => 클래스 내부에서 사용하려는 값, 값이 바뀌면  UI를 갱신함 
+3. context : 최상위 클래스에서 어떤 컴포넌트에서 사용할 수 있도록 한 값
+4. context 를 아주 잘 사용하기 위해서 Reduct, MopX 
+
+
